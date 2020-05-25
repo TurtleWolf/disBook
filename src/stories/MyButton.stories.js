@@ -4,5 +4,5 @@ import { action } from '@storybook/addon-actions';
 import MyButton from '../MyButton';
 
 storiesOf('MyButton', module).add('clicks', () => (
-  <MyButton onClick={action('disButton clicked')} />
+  <MyButton onClick={action('clicked disButton')} />
 )); 
