@@ -1,8 +1,22 @@
 import React, { Component } from 'react';
 
+// We import our Home.css file here
+import './Home.css';
+
 class Home extends Component {
     render() {
-        return <h1>I'm Home Component</h1>;
+        return (
+            <div className="Home">
+                <h1>Welcome to Codejobs</h1>
+
+                <p>
+                    In this recipe you will learn how to add styles to
+                    components. If you want to learn more you can visit
+                    our Youtube Channel at
+          <a href="http://youtube.com/codejobs">Codejobs</a>.
+        </p>
+            </div>
+        );
     }
 }
 

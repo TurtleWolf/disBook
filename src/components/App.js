@@ -1,24 +1,21 @@
 import React from 'react';
-import logo from '../shared/images/logo.svg';
+// import logo from '../shared/images/logo.svg';
+import Home from './Home/Home';
+// Layout Components
+import Header from '../shared/components/layout/Header';
+import Content from '../shared/components/layout/Content';
+import Footer from '../shared/components/layout/Footer';
 import './App.css';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <Header title="Welcome to disBook" />
+      <Content>
+        <Home />
+      </Content>
+
+      <Footer />
     </div>
   );
 }
