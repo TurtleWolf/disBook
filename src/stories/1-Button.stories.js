@@ -2,7 +2,7 @@ import React from 'react';
 import { action } from '@storybook/addon-actions';
 import { Button } from '@storybook/react/demo';
 import { withCssResources } from '@storybook/addon-cssresources';
-import imageUrl from '../../src/logo.svg';
+import imageUrl from '../shared/images/logo.svg';
 
 export default {
   title: 'Button',

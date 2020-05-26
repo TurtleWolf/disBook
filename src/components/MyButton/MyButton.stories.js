@@ -1,6 +1,6 @@
 import React from 'react';
-import MyButton from '../MyButton';
-import imageUrl from '../../src/logo.svg';
+import MyButton from '../MyButton/MyButton';
+import imageUrl from '../../shared/images/logo.svg';
 import { action } from '@storybook/addon-actions';
 import { withCssResources } from '@storybook/addon-cssresources';
 

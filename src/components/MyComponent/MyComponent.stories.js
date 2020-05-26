@@ -1,6 +1,6 @@
 import React from 'react';
 import { storiesOf } from '@storybook/react';
-import MyComponent from '../MyComponent';
+import MyComponent from './MyComponent';
 import { withKnobs, text, object } from '@storybook/addon-knobs/react';
 
 storiesOf('MyComponent', module)
