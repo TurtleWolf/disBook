@@ -1,13 +1,22 @@
 import React from 'react';
-// We import our MyTicTacToe.css file here
-import './MyTicTacToe.css';
+// We import our MyTicTacDice.css file here
+import './MyTicTacDice.css';
 // import PropTypes from 'prop-types';
 
 class Square extends React.Component {
+  constructor(props) {
+    super(props);
+    this.state = {
+      value: null,
+    };
+  }
   render() {
     return (
-      <button className="square">
-        {/* TODO */}
+      <button
+        className="square"
+        onClick={() => alert('click')}>
+        {/* onClick={() => this.setState({ value: 'X' })}> */}
+        {this.state.value}
       </button>
     );
   }
@@ -15,7 +24,7 @@ class Square extends React.Component {
 
 class Board extends React.Component {
   renderSquare(i) {
-    return <Square />;
+    return <Square value={i} />;
   }
 
   render() {
@@ -44,7 +53,7 @@ class Board extends React.Component {
   }
 }
 
-class MyTicTacToe extends React.Component {
+class MyTicTacDice extends React.Component {
   render() {
     return (
       <div className="game">
@@ -60,4 +69,4 @@ class MyTicTacToe extends React.Component {
   }
 }
 
-export default MyTicTacToe; 
+export default MyTicTacDice; 
