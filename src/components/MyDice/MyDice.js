@@ -2,7 +2,7 @@
 import './MyDice.css';
 // import PropTypes from 'prop-types';
 import React, { PureComponent } from 'react';
-
+import MyInput from '../MyInput/MyInput';
 
 
 class Square extends React.Component {
@@ -42,6 +42,7 @@ class Board extends React.Component {
           {this.renderSquare(3)}
           {this.renderSquare(4)}
         </div>
+        <MyInput></MyInput>
       </div>
     );
   }

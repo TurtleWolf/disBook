@@ -138,7 +138,7 @@ export default FileName;
 
 ---
 
-## React Pure Class Component with Prop Types
+## React Class Component with Prop Types
 
 ### `rccp`
 
