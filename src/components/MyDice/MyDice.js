@@ -12,12 +12,17 @@ class Square extends React.Component {
       value: null,
     };
   }
+
+  generateRandom(min, max) {
+    return Math.floor(Math.random() * (max - min + 1) + min);
+  }
+
   render() {
     return (
       <button
         className="square"
-        onClick={() => alert('click')}>
-        {/* onClick={() => this.setState({ value: 'X' })}> */}
+        // onClick={() => alert('click')}>
+        onClick={() => this.setState({ value: this.generateRandom(1, 6) })}>
         {this.state.value}
       </button>
     );
