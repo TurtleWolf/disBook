@@ -26,10 +26,10 @@ export default {
   },
 };
 
-export const Text = () => <MyButton onClick={action('dis clicked My Text Button')}>Hello MyButton</MyButton>;
+export const Text = () => <MyButton onClick={action('disClicked')}>Hello MyButton</MyButton>;
 
 export const Emoji = () => (
-  <MyButton onClick={action('dis clicked.. but no emojis, so sad face')}>
+  <MyButton onClick={action('disClicked')}>
     <span role="img" aria-label="so cool">
       😀 😎 👍 💯
     </span>

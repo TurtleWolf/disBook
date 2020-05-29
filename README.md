@@ -1,28 +1,14 @@
-# [https://turtlewolf.github.io/DockerReact/](hhttps://turtlewolf.github.io/DockerReact/ 'live demo of frontend components in isolation')
+# [https://turtlewolf.github.io/disBook/](https://turtlewolf.github.io/disBook/ 'live demo of frontend components in isolation')
 
-## [TurtleWolfe/DockerReact](https://github.com/TurtleWolf/DockerReact 'code repo')
+## [TurtleWolfe/disBook](https://github.com/TurtleWolf/disBook 'code repo')
 
 ## This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app)
 
 I attached a storybook from chapter 7 in **`Tooling`**  
 then modified the structure according to the first few chapters of the React **`Cook Book`**
 
-Assuming you already have **Docker** running locally on your machine
-from the root directory of this repo change to react_docker  
-**`cd react_docker`**
-
-running docker-compose up should start a dev server
-and a dev-story server, both bound
-to the local devolepment folder  
-**`docker-compose up --build`**
-
 [![React Tooling cover](/ReferenceNotes/Images/ReactTooling.png 'React 16 Tooling covers the most important tools, utilities, and libraries that every React developer needs to know — in detail. By Adam Boduch, April 2018')](https://subscription.packtpub.com/book/web_development/9781788835015 'By Carlos Santana Roldán August 2018c')
 [![React Cook Book cover](https://raw.githubusercontent.com/TurtleWolf/react_scaffolding/master/ReactCookBook.png 'React Cook Book By Carlos Santana Roldán August 2018')](https://subscription.packtpub.com/book/web-development/9781783980727 'By Carlos Santana Roldán August 2018c')
-
-[![Docker Swarm](ReferenceNotes/Images/Docker_Swarm.png 'Build, test, deploy containers with the best mega-course on Docker, Kubernetes, Compose, Swarm and Registry using DevOps ')](https://www.udemy.com/course/docker-mastery 'By Carlos Santana Roldán August 2018c')
-[![Docker Node](/ReferenceNotes//Images/DockerNode.png 'Build, test, deploy Node for Docker, Kubernetes, Swarm, and ARM with the latest DevOps practices from a container expert ')](https://www.udemy.com/course/docker-mastery-for-nodejs 'By Carlos Santana Roldán August 2018c')
-
-## [Running React and Node.js in one shot with Docker!](https://dev.to/numtostr/running-react-and-node-js-in-one-shot-with-docker-3o09 'In this post looking at the docker way of running React and Node.js. This is a kind of advance development setup and I hope you already installed and know the basics of docker and docker-compose. If you want to know more about docker head over to docker.com')
 
 & this Medium article Creating a chat web app using Express.js, React.js & Socket.i0
 [![Creating a chat web app using Express.js, React.js & Socket.io](/ReferenceNotes/Images/antonio-article.png 'Creating a chat web app using Express.js, React.js & Socket.i')](https://medium.com/signature-networks/creating-a-chat-web-app-using-express-js-react-js-socket-io-1b01100a8ea5 'Antonio Erdeljac')
