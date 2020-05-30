@@ -1,5 +1,5 @@
-// We import our MyDice.css file here
-import './MyDice.css';
+// We import our Dice.css file here
+import './Dice.css';
 // import PropTypes from 'prop-types';
 import React, { PureComponent } from 'react';
 import MyInput from '../MyInput/MyInput';
@@ -80,7 +80,7 @@ class MyTacToe extends React.Component {
   }
 }
 
-export default class MyDice extends PureComponent {
+export default class Dice extends PureComponent {
   static propTypes = {
 
   };
@@ -93,7 +93,3 @@ export default class MyDice extends PureComponent {
     );
   }
 }
-
-
-
-
