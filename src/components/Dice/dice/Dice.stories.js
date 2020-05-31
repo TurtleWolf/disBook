@@ -1,5 +1,5 @@
 import React from 'react';
-import Dice from '../Dice/Dice';
+import Dice from './Dice';
 import dieIMG1 from './dice_Side_Images/dice_1.jpg';
 import dieIMG2 from './dice_Side_Images/dice_2.jpg';
 import dieIMG3 from './dice_Side_Images/dice_3.jpg';
