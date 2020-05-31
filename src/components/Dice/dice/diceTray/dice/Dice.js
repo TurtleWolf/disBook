@@ -27,7 +27,7 @@ export default class Dice extends PureComponent {
       <button
         className={"die" + this.state.value}
         // onClick={() => alert('click')}>
-        onClick={() => this.setState({ value: this.generateRandom(1, 10) })}>
+        onClick={() => this.setState({ value: this.generateRandom(1, 6) })}>
         {/* {this.state.value} */}
       </button>
     );
