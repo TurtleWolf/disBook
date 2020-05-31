@@ -2,7 +2,7 @@
 // import './DiceTray.css';
 // import PropTypes from 'prop-types';
 import React, { PureComponent } from 'react';
-import MyInput from '../../../MyInput/MyInput';
+// import MyInput from '../../../MyInput/MyInput';
 // import dieIMG1 from './dice_Side_Images/dice_1.jpg';
 // import dieIMG2 from './dice_Side_Images/dice_2.jpg';
 // import dieIMG3 from './dice_Side_Images/dice_3.jpg';
@@ -33,7 +33,9 @@ export default class DiceTray extends PureComponent {
           {this.renderDice(3)}
           {this.renderDice(4)}
         </div>
-        <MyInput></MyInput>
+        <form action="">
+          <input id="message" className="dieInput" autocomplete="off" /><button className="dieSend">Send-dis</button>
+        </form>
       </div>
     );
   }

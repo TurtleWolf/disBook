@@ -13,45 +13,61 @@
   background: red;
 }
 
+.dieSend {
+  box-shadow: 1px 1px 4px 1px #000000;
+}
+
 .die1 {
-  background-image: url('./dice_1.jpg');
+  background-image: url('./dice_1.png');
   background-color: #ff0303;
-  width: 100px;
-  height: 100px;
+  width: 35px;
+  height: 35px;
+  margin: 5px;
+  box-shadow: 1px 1px 4px 1px #000000;
 }
 .die2 {
-  background-image: url('./dice_2.jpg');
+  background-image: url('./dice_2.png');
   background-color: #d1ff03;
-  width: 100px;
-  height: 100px;
+  width: 35px;
+  height: 35px;
+  margin: 5px;
+  box-shadow: 1px 1px 4px 1px #000000;
 }
 
 .die3 {
-  background-image: url('./dice_3.jpg');
+  background-image: url('./dice_3.png');
   background-color: #03ff03;
-  width: 100px;
-  height: 100px;
+  width: 35px;
+  height: 35px;
+  margin: 5px;
+  box-shadow: 1px 1px 4px 1px #000000;
 }
 
 .die4 {
-  background-image: url('./dice_4.jpg');
+  background-image: url('./dice_4.png');
   background-color: #03fff2;
-  width: 100px;
-  height: 100px;
+  width: 35px;
+  height: 35px;
+  margin: 5px;
+  box-shadow: 1px 1px 4px 1px #000000;
 }
 
 .die5 {
-  background-image: url('./dice_5.jpg');
+  background-image: url('./dice_5.png');
   background-color: #1403ff;
-  width: 100px;
-  height: 100px;
+  width: 35px;
+  height: 35px;
+  margin: 5px;
+  box-shadow: 1px 1px 4px 1px #000000;
 }
 
 .die6 {
-  background-image: url('./dice_6.jpg');
+  background-image: url('./dice_6.png');
   background-color: #ff03ff;
-  width: 100px;
-  height: 100px;
+  width: 35px;
+  height: 35px;
+  margin: 5px;
+  box-shadow: 1px 1px 4px 1px #000000;
 }
 
 .die7 {

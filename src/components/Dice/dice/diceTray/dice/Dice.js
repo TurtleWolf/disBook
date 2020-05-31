@@ -14,7 +14,7 @@ export default class Dice extends PureComponent {
   constructor(props) {
     super(props);
     this.state = {
-      value: null,
+      value: 0,
     };
   }
 
@@ -28,7 +28,7 @@ export default class Dice extends PureComponent {
         className={"die" + this.state.value}
         // onClick={() => alert('click')}>
         onClick={() => this.setState({ value: this.generateRandom(1, 6) })}>
-        {this.state.value}
+        {/* {this.state.value} */}
       </button>
     );
   }
