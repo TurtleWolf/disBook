@@ -1,5 +1,5 @@
 // We import our Dice.css file here
-import './DiceTray.css';
+// import './DiceTray.css';
 // import PropTypes from 'prop-types';
 import React, { PureComponent } from 'react';
 import MyInput from '../../MyInput/MyInput';

@@ -1,15 +1,60 @@
 .Dice {
-    background: red;
-    width: 55px;
-    float: left;
-    
-    }
-    .Dice .transition {
-    transition: all 3s ease 0s;
-    color: white;
-    padding-bottom: 10px;
-    }
-    .Dice .transition.show {
-    padding-bottom: 300px;
-    background: red;
-    }
+  background: red;
+  width: 55px;
+  float: left;
+}
+.Dice .transition {
+  transition: all 3s ease 0s;
+  color: white;
+  padding-bottom: 10px;
+}
+.Dice .transition.show {
+  padding-bottom: 300px;
+  background: red;
+}
+
+.die1 {
+  background-image: url('./dice_1.jpg');
+  background-color: #ff0303;
+  width: 100px;
+  height: 100px;
+}
+.die2 {
+  background-image: url('./dice_2.jpg');
+  background-color: #d1ff03;
+  width: 100px;
+  height: 100px;
+}
+
+.die3 {
+  background-image: url('./dice_3.jpg');
+  background-color: #03ff03;
+  width: 100px;
+  height: 100px;
+}
+
+.die4 {
+  background-image: url('./dice_4.jpg');
+  background-color: #03fff2;
+  width: 100px;
+  height: 100px;
+}
+
+.die5 {
+  background-image: url('./dice_5.jpg');
+  background-color: #1403ff;
+  width: 100px;
+  height: 100px;
+}
+
+.die6 {
+  background-image: url('./dice_6.jpg');
+  background-color: #ff03ff;
+  width: 100px;
+  height: 100px;
+}
+
+.die7 {
+  /* background-image: url('./dice_7.jpg'); */
+  background-color: #000000;
+}
