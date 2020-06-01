@@ -13,16 +13,13 @@
   background: red;
 }
 
-.dieSend {
-  box-shadow: 1px 1px 4px 1px inset #000000;
-}
-
 .die0 {
   background-image: url('./dice_1.png');
   background-color: #ff0303;
   width: 35px;
   height: 35px;
   margin: 5px;
+  padding-top: 25px;
   box-shadow: 1px 1px 4px 1px #000000;
 }
 
@@ -32,6 +29,7 @@
   width: 35px;
   height: 35px;
   margin: 5px;
+  padding-top: 25px;
   box-shadow: 1px 1px 4px 1px #000000;
 }
 
@@ -41,6 +39,7 @@
   width: 35px;
   height: 35px;
   margin: 5px;
+  padding-top: 25px;
   box-shadow: 1px 1px 4px 1px #000000;
 }
 
@@ -50,6 +49,7 @@
   width: 35px;
   height: 35px;
   margin: 5px;
+  padding-top: 25px;
   box-shadow: 1px 1px 4px 1px #000000;
 }
 
@@ -59,6 +59,7 @@
   width: 35px;
   height: 35px;
   margin: 5px;
+  padding-top: 25px;
   box-shadow: 1px 1px 4px 1px #000000;
 }
 
@@ -68,6 +69,7 @@
   width: 35px;
   height: 35px;
   margin: 5px;
+  padding-top: 25px;
   box-shadow: 1px 1px 4px 1px #000000;
 }
 
@@ -77,6 +79,7 @@
   width: 35px;
   height: 35px;
   margin: 5px;
+  padding-top: 25px;
   box-shadow: 1px 1px 4px 1px #000000;
 }
 
@@ -84,9 +87,11 @@
   background-image: url('./favicon.ico');
   /* background-color: #ff0303; */
   background: 0.5;
-  /* opacity: 0.5; */
+  background-repeat: no-repeat;
+  /* padding-top: 14px; */
   width: 35px;
   height: 35px;
   margin: 5px;
+  padding-top: 25px;
   box-shadow: 1px 1px 4px 1px #000000;
 }

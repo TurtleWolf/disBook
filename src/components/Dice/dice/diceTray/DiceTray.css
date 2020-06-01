@@ -1,7 +1,33 @@
-.dieSend {
-  box-shadow: 1px 1px 4px 1px #000000;
+body {
+  font: 14px 'Century Gothic', Futura, sans-serif;
+  margin: 20px;
 }
 
-.dieInput {
+ol,
+ul {
+  padding-left: 30px;
+}
+
+button {
+  background: #fff;
+  border: 1px solid #999;
+  /* float: left; */
+  font-size: 24px;
+  font-weight: bold;
+  line-height: 34px;
+  height: 34px;
+  margin-right: -1px;
+  margin-top: -1px;
+  padding: 0;
+  text-align: center;
+  width: 115px;
+}
+button .dieSend {
+  box-shadow: 1px 1px 4px 1px #000000;
+}
+button .dieSend {
+  box-shadow: 1px 1px 4px 1px #000000;
+}
+input .dieInput {
   box-shadow: 1px 1px inset 4px 1px #000000;
 }

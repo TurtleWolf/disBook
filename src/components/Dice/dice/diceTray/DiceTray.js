@@ -1,5 +1,5 @@
 // We import our Dice.css file here
-// import './DiceTray.css';
+import './DiceTray.css';
 // import PropTypes from 'prop-types';
 import React, { PureComponent } from 'react';
 // import MyInput from '../../../MyInput/MyInput';
@@ -10,6 +10,7 @@ import React, { PureComponent } from 'react';
 // import dieIMG5 from './dice_Side_Images/dice_5.jpg';
 // import dieIMG6 from './dice_Side_Images/dice_6.jpg';
 import Dice from './dice/Dice';
+import ReRollButton from './ReRollButton/ReRollButton.stories';
 
 export default class DiceTray extends PureComponent {
   static propTypes = {
@@ -32,9 +33,11 @@ export default class DiceTray extends PureComponent {
           {this.renderDice(2)}
           {this.renderDice(3)}
           {this.renderDice(4)}
+          <button className="dieSend">re-roll</button>
+          {/* <ReRollButton className="dieSend">ReRolls</ReRollButton> */}
         </div>
         <form action="">
-          <input id="message" className="dieInput" autocomplete="off" /><button className="dieSend">Send-dis</button>
+          <input id="message" className="dieInput" autocomplete="off" /><button className="dieSend">send</button>
         </form>
       </div>
     );
